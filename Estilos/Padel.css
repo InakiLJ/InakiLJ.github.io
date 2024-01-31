@@ -17,7 +17,7 @@ figcaption{
     background-color: lightblue;
     color: black;
 }
-.fotos_index > div{
+.fotos_index{
     background-color: lightblue;
     width: 100px;
     margin: 10px;
