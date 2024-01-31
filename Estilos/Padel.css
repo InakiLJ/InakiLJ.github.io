@@ -17,9 +17,6 @@ figcaption{
     background-color: lightblue;
     color: black;
 }
-figcaption *{
-    margin: 0.5rem;
-}
 img{
     width: 100%;
 }
