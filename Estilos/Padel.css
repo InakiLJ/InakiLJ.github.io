@@ -4,6 +4,18 @@ html{
 h1{
     text-align: center;
 }
+p{
+    text-align: center;
+}
+body{
+    padding: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 100%;
+  height: auto;
+}
 #encabezado{
     position: fixed;
     top: -20px;
@@ -45,12 +57,4 @@ div.textoIndex{
     padding: 15px;
     text-align: center;
 }
-img{
-    width: 100%;
-  height: auto;
-}
-body{
-    padding: 0;
-    border: 0;
-    font-family: 'Courier New', Courier, monospace;
-}
+
