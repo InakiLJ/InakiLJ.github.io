@@ -4,34 +4,58 @@ html{
 h1{
     text-align: center;
 }
-figure{
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1%;
-    width: 80%;
-    margin: 0 auto;
-}
-figcaption{
-    background-color: lightblue;
-    color: black;
-}
-.fotos_index{
-    background-color: lightblue;
-    width: 100px;
-    margin: 10px;
+p{
     text-align: center;
-    line-height: 75px;
-    color: black;
-}
-img{
-    width: 100%;
 }
 body{
     padding: 0;
     border: 0;
     font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 100%;
+  height: auto;
+}
+#encabezado{
+    position: fixed;
+    top: -20px;
+    height: 80px;
+    width: 100%;
+    opacity: 50%;
+}
+ul{
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    margin-left:25%;
+    margin-right: 25%;
+}
+li{
+    vertical-align: center;
+    font-size: 23px;
+    width: 170px;
+    height: 50px;
+    border: solid blue 2px;
+    overflow: hidden;
+    float: left;
+    font-family: Sans-Serif;
+}
+div.fotosIndex{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.fotosIndex:hover{
+    border: 1px solid #777;
+}
+div.fotosIndex img{
+    width: 100%;
+    height: auto;
+}
+div.textoIndex{
+    padding: 15px;
+    text-align: center;
 }
 #formulario{
     background-color: papayawhip;
