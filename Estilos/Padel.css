@@ -16,6 +16,7 @@ img{
     width: 100%;
   height: auto;
 }
+
 #encabezado{
     position: fixed;
     top: -20px;
@@ -44,16 +45,18 @@ div.fotosIndex{
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 550px;
 }
 div.fotosIndex:hover{
-    border: 1px solid #777;
+    border: 2px solid black;
+    background-color: lightskyblue;
 }
 div.fotosIndex img{
     width: 100%;
     height: auto;
 }
 div.textoIndex{
+    color: black;
     padding: 15px;
     text-align: center;
 }
