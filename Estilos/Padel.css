@@ -33,3 +33,15 @@ body{
     border: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+#formulario{
+    background-color: papayawhip;
+    border-radius: 30px;
+}
+#formulario label{
+   margin-left: 20px;
+    border-bottom:1px black solid;
+}
+#formulario input{
+    margin-left: 20px;
+    border-radius: 5px;
+}
