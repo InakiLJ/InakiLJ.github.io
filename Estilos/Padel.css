@@ -2,17 +2,20 @@ html{
     box-sizing: border-box;
 }
 #encabezado{
-    position: fixed;
-    top: -20px;
-    height: 80px;
+    position:absolute;
+    top: -200px;
+    left: 0px;
+    height: 490px;
     width: 100%;
     opacity: 50%;
+    background-image:url(/Imgs/NavePadel.jpg);
 }
 
 h1{
     text-align: center;
 }
 ul{
+    position: relative;
     text-align: center;
     padding: 0;
     overflow: hidden;
@@ -58,4 +61,19 @@ body{
     padding: 0;
     border: 0;
     font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: khaki;
+    text-align: center;
+}
+
+#botonInicio{
+    position: absolute;
+    border: solid black 1px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    background-color: cornflowerblue;
 }
