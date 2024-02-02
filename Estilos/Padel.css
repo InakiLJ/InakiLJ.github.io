@@ -46,7 +46,7 @@ figcaption{
     color: black;
 }
 .fotos_index{
-    background-color: lightblue;
+    background-color: lightskyblue;
     width: 100px;
     margin: 10px;
     text-align: center;
@@ -83,10 +83,6 @@ img{
     float: left;
     width: 100%;
     box-sizing: border-box;
-}
-.fotos_index:hover{
-    border: 2px solid black;
-    background-color: lightskyblue;
 }
 .fotos_index img{
     width: 100%;
