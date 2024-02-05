@@ -6,20 +6,19 @@ html{
     left: 0px;
     height: 300px;
     width: 100%;
-    opacity: 50%;
     background-image:url(/Imgs/NavePadel.jpg);
     object-position: bottom;
 }
-
 h1{
     text-align: center;
+    opacity: 100%;
 }
 ul{
     text-align: center;
     padding: 0;
     overflow: hidden;
-    margin-left:25%;
-    margin-right: 25%;
+    margin-left:30%;
+    margin-right: 30%;
 }
 li{
     vertical-align: center;
@@ -30,8 +29,9 @@ li{
     overflow: hidden;
     float: left;
     font-family: Sans-Serif;
+    background-color: aliceblue;
+    opacity: 70%;
 }
-
 body{
     padding: 0;
     border: 0;
@@ -41,15 +41,15 @@ body{
 footer{
     background-color: khaki;
     text-align: center;
-    margin-top: 100%;
+    margin: 0;
 }
 
 #botonInicio{
     position: absolute;
     border: solid black 1px;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     text-align: center;
     background-color: cornflowerblue;
 }
@@ -80,15 +80,32 @@ img{
     background-color: whitesmoke;
     color: black;
 }
-#formulario {
+#formulario{
+    margin-top: 20px;
     background-color: papayawhip;
     border-radius: 30px;
 }
 #formulario label{
-   margin-left: 20px;
+    margin-left: 20px;
     border-bottom:1px black solid;
 }
 #formulario input{
     margin-left: 20px;
     border-radius: 5px;
+}
+#instalaciones{
+    background-color: lightskyblue;
+    margin-top: 10px;
+}
+#descrip_isnt{
+    background-color: lightblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.fotos_pistas{
+    height: 400px;
+    width: 500px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: 10%;
 }
