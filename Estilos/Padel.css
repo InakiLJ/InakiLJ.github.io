@@ -31,26 +31,7 @@ li{
     float: left;
     font-family: Sans-Serif;
 }
-figure{
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1%;
-    width: 100%;
-    margin: 10px;
-    box-sizing: border-box;
-}
-figcaption{
-    background-color: lightblue;
-    color: black;
-}
-.fotos_index{
-    background-color: lightskyblue;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-}
+
 body{
     padding: 0;
     border: 0;
@@ -76,24 +57,30 @@ img{
     width: 100%;
     height: auto;
 }
-.fotos_index{
-    margin: 5px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
+.fotosIndex{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    background-color: white;
+    padding: 10px;
 }
-.fotos_index img{
-    width: 100%;
-    height: 100%;
-}
-.textoIndex{
-    color: black;
-    padding: 15px;
+.fotosIndex > div{
+    background-color: rgb(65, 70, 78);
     text-align: center;
+    padding: 0;
+    font-size: 30px;
 }
-#formulario{
+.LeerMas{
+    background-color: rgb(65, 70, 78);
+    color: white;
+    border: 2px solid black;
+    border-radius: 24px;
+}
+.LeerMas:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#formulario {
     background-color: papayawhip;
     border-radius: 30px;
 }
