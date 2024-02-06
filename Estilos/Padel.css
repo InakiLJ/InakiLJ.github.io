@@ -18,6 +18,13 @@ h1{
     text-align: center;
     opacity: 100%;
 }
+h2{
+    color: rgb(95, 95, 95);
+    font-size: 21px;
+}
+#UN{
+    color: black;
+}
 ul{
     text-align: center;
     overflow: hidden;
@@ -54,9 +61,12 @@ grid > li{
 body{
     padding: 0;
     border: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+#container{
+    width: 800px;
+    margin: 0 auto;
+}
 footer{
     background-color: khaki;
     text-align: center;
@@ -84,20 +94,20 @@ img{
     padding: 10px;
 }
 .fotosIndex > div{
-    background-color: rgb(65, 70, 78);
-    text-align: center;
+    background-color: rgb(231, 231, 231);
+    text-align: left;
     padding: 0;
     font-size: 30px;
 }
 .LeerMas{
-    background-color: rgb(65, 70, 78);
+    background-color: rgb(107, 116, 126);
     color: white;
-    border: 2px solid black;
-    border-radius: 24px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    font-size: 18px;
 }
 .LeerMas:hover{
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgb(107, 109, 106);
 }
 #formulario{
     margin-top: 20px;
