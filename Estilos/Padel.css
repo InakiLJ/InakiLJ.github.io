@@ -160,12 +160,15 @@ table,th,td{
 table{
     width: 80%;
 }
-#vacío{
+.vacío{
     background-color: lightgray;
 }
-#vacío:hover{
+.vacío:hover{
     background-color: rgb(153, 152, 152);
 }
-#reserva:focus{
+.vacio:active{
+    background-color: gray;
+}
+.ocupado{
     background-color: gray;
 }
