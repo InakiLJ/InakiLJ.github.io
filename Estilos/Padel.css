@@ -155,5 +155,8 @@ table{
     background-color: lightgray;
 }
 #vacío:hover{
-    background-color: gray;
+    background-color: rgb(153, 152, 152);
+}
+#vacio:focus{
+    color: gray;
 }
