@@ -77,13 +77,14 @@ footer{
     position: absolute;
     border: solid black 1px;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     text-align: center;
     background-color: cornflowerblue;
 }
 img{
     width: 100%;
+    height: auto;
 }
 .fotosIndex{
     display: grid;
@@ -122,20 +123,26 @@ img{
     border-radius: 5px;
 }
 #instalaciones{
-    background-color: lightskyblue;
     margin-top: 10px;
 }
 #descrip_isnt{
-    background-color: lightblue;
-    margin-left: 30%;
-    margin-right: 30%;
+    border: solid rgb(165, 170, 163) 20px;
+    background-color: rgb(165, 170, 163);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 .fotos_pistas{
-    height: 400px;
-    width: 500px;
+    height: 350px;
+    width: 450px;
     box-sizing: border-box;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 80px;
+    margin-bottom: 200px;
+    border: solid black 4px;
+    border-radius: 20px;
 }
 table,th,td{
     border: 1px solid black;
@@ -149,5 +156,4 @@ table{
 }
 #vacío:hover{
     background-color: gray;
-
 }
