@@ -129,8 +129,9 @@ img{
 }
 #formulario{
     margin-top: 20px;
-    background-color: rgb(107, 116, 126);
+    background-color: rgb(108, 116, 126);
     border-radius: 30px;
+    color: white;
 }
 #formulario label{
     margin-left: 20px;
