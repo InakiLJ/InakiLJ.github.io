@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
 html{
     box-sizing: border-box;
@@ -65,8 +64,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #container{
-    width: 800px;
+    padding-left: 0 auto;
     margin: 0 auto;
+    padding-right: 0 auto;
 }
 footer{
     background-color: khaki;
@@ -144,4 +144,17 @@ img{
     margin-bottom: 200px;
     border: solid black 4px;
     border-radius: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 80%;
+}
+#vacío{
+    background-color: lightgray;
+}
+#vacío:hover{
+    background-color: gray;
 }
