@@ -157,6 +157,10 @@ table,th,td{
     border-collapse: collapse;
     margin-bottom: 50%;
 }
+td{
+    text-align: center;
+    vertical-align: middle;
+}
 table{
     width: 80%;
 }
@@ -166,6 +170,9 @@ table{
 .ocupado{
     background-color: gray;
 }
-input{
-    text-align: center;
+input[type="checkbox"]{
+    border: 1px solid gray;
+}
+input[type="checkbox"]:hover{
+    border: 1px solid black;
 }
