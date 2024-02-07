@@ -24,6 +24,10 @@ h2{
     color: rgb(95, 95, 95);
     font-size: 21px;
 }
+.espacio{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 #UN{
     color: black;
 }
@@ -113,7 +117,7 @@ img{
 }
 #formulario{
     margin-top: 20px;
-    background-color: papayawhip;
+    background-color: rgb(121, 172, 192);
     border-radius: 30px;
 }
 #formulario label{
