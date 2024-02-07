@@ -19,8 +19,43 @@
     </div>
     <h2 class="espacio">Reserva de pistas</h2>
     <br/>
-    <p class="espacio">En esta tabla podras elegir el día y la hora en la cual quieres jugar, por defecto te saldra el día de hoy pero podras elejir el día que desees.</p>
-    <br/>
+    <p class="espacio">En esta tabla podras elejir las horas que estén disponibles según el dia y la pista</p><br/>
+    
+    <label for="dias"> Selecciona un dia:</label><br/>
+    <select name="dias" id="dias">
+        <option value="dia01">01</option>
+        <option value="dia02">02</option>
+        <option value="dia03">03</option>
+        <option value="dia04">04</option>
+        <option value="dia05">05</option>
+        <option value="dia06">06</option>
+        <option value="dia07">07</option>
+        <option value="dia08">08</option>
+        <option value="dia09">09</option>
+        <option value="dia10">10</option>
+        <option value="dia11">11</option>
+        <option value="dia12">12</option>
+        <option value="dia13">13</option>
+        <option value="dia14">14</option>
+        <option value="dia15">15</option>
+        <option value="dia16">16</option>
+        <option value="dia17">17</option>
+        <option value="dia18">18</option>
+        <option value="dia19">19</option>
+        <option value="dia20">20</option>
+        <option value="dia21">21</option>
+        <option value="dia22">22</option>
+        <option value="dia23">23</option>
+        <option value="dia24">24</option>
+        <option value="dia25">25</option>
+        <option value="dia26">26</option>
+        <option value="dia27">27</option>
+        <option value="dia28">28</option>
+        <option value="dia29">29</option>
+        <option value="dia30">30</option>
+        <option value="dia31">31</option>
+    </select>
+    <br/><br/>
     <table class="espacio">
         <tr>
             <th></th>
@@ -125,6 +160,30 @@
             <td class="vacío"><input type="checkbox" value="true"></td>
         </tr>            
     </table>
+    <fieldset class="espacio" id="formulario">
+        <label for="nombre">Nombre:</label><br/><br/>
+        <input id="nombre" type="text" name="nombre"/><br/><br/>
+        <label for="apellidos">Apellidos:</label><br/><br/>
+        <input id="apellidos" type="text" name="apellidos"/><br/><br/>
+        <label for="tarifa">Tarifa:</label><br/><br/>
+        <input id="tarifa" type="text" name="tarifa"/><br/><br/>
+        <label for="ntelefono">Nº de teléfono:</label><br/><br/>
+        <input id="ntelefono" type="tel" name="ntelefono"/><br/><br/>
+        <label for="correo">Correo:</label><br/><br/>
+        <input id="correo" type="email" name="correo"/><br/><br/>
+        <label for="bono"><strong>Bono:</strong></label><br/><br/>
+        <label for="Verano">Verano</label>
+        <input id="Verano" type="radio" name="bonos"/><br/><br/>
+        <label for="curso">Curso Académico</label>
+        <input id="curso" type="radio" name="bonos"/><br/><br/>
+        <label for="Carnaval">Carnaval</label>
+        <input id="Carnaval" type="radio" name="bonos"/><br/><br/>
+        <label for="Mañanas">Mañanas</label>
+        <input id="Mañanas" type="radio" name="bonos"/><br/><br/>
+        <label for="curso">Tardes</label>
+        <input id="curso" type="radio" name="bonos"/><br/><br/>
+
+        <input type="submit"/>
     <br/>
 </body>
 <footer>
