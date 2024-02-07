@@ -163,9 +163,6 @@ table{
 .vacío{
     background-color: lightgray;
 }
-.vacío:hover{
-    background-color: rgb(153, 152, 152);
-}
 .vacio:active{
     background-color: gray;
 }
