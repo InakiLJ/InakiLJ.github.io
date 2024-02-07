@@ -64,9 +64,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #container{
-    padding-left: 0 auto;
-    margin: 0 auto;
-    padding-right: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 footer{
     background-color: khaki;
