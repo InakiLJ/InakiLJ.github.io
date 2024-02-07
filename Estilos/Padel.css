@@ -163,10 +163,6 @@ table{
 .vacío{
     background-color: lightgray;
 }
-.vacio:focus{
-    outline: none;
-    background-color: gray;
-}
 .ocupado{
     background-color: gray;
 }
