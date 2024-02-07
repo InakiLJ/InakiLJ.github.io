@@ -64,8 +64,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #container{
-    width: 800px;
+    padding-left: 0 auto;
     margin: 0 auto;
+    padding-right: 0 auto;
 }
 footer{
     background-color: khaki;
@@ -84,7 +85,6 @@ footer{
 }
 img{
     width: 100%;
-    height: auto;
 }
 .fotosIndex{
     display: grid;
@@ -143,5 +143,12 @@ table,th,td{
     border-collapse: collapse;
 }
 table{
-    width: 100%;
+    width: 80%;
+}
+#vacío{
+    background-color: lightgray;
+}
+#vacío:hover{
+    background-color: gray;
+
 }
