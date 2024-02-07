@@ -166,3 +166,6 @@ table{
 .ocupado{
     background-color: gray;
 }
+input{
+    text-align: center;
+}
