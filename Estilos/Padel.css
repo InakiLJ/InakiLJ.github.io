@@ -178,8 +178,7 @@ input[type="checkbox"]:hover{
 }
 #dias{
     background-color: lightgray;
-    color: gray;
-    font-size: 15px;
+    color: rgb(95, 95, 95);
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
